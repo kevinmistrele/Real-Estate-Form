@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda seu imóvel</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="form-container">
+            <div class="form-header">
+            </div>
+            <div class="form-body">
+                <h1>Venda seu imóvel rápido!!</h1>
+                <p class="  ">Preencha o formulário com as caracteristicas e opções da casa</p>
+                <form>
+                    <div class="box-input">
+                        <label for="title">Título do Anúncio: <span class="required-field">*</span></label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Insira um título para vender seu imóvel:" minlength="1" maxlength="50" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="price">Preço do imóvel: <span class="required-field">*</span></label>
+                        <input type="number" name="price" id="price" class="block" placeholder="Insira o preço do imóvel:" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="description">Descrição: <span class="required-field">*</span></label>
+                        <textarea name="description" id="description" class="block" placeholder="Insira uma descricao:"></textarea>
+                    </div>
+                    <div class="box-input">
+                        <label for="location">Localização do Imóvel: <span class="required-field">*</span></label>
+                        <input type="text" name="location" id="location" class="block" placeholder="Insira a localização do imóvel:"required>
+                    </div>
+                    <div class="box-input">
+                        <label for="area">Área em m²: <span class="required-field">*</span></label>
+                        <input type="number" name="area" id="area" class="block" placeholder="Insira a área em m² do imóvel:" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="visit">Agende uma reunião: <span class="required-field">*</span></label>
+                        <input type="date" name="visit" id="visit" class="block" placeholder="Agendar uma reunião de negócios:" required>
+                    </div>
+                    <div class="box-input">
+                        <p>Escolha como você deseja entregar a casa: <span class="required-field">*</span></p>
+                        <input type="radio" name="house" id="furnished">
+                        <label for="furnished">Mobíliada</label>
+                        <input type="radio" name="house" id="unfurnished">
+                        <label for="unfurnished">Sem mobílias</label>
+                    </div>
+                    <div class="box-input" id="house-photo">
+                        <p>Foto da casa <span class="required-field">*</span></p>
+                        <input type="file" multiple accept="image/png, image/jpg" id="images" name="images" required>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

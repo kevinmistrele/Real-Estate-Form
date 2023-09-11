@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../imgs/fundo\ 2.jpg);
+    background-size: cover;
+}
+
+
+h1, h2, h3, h4, h5{
+    color: #333;
+}
+p, label{
+    color: #444;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid #fdfdfd;
+    border-right: 2px solid #fdfdfd;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"]{
+    width: 400px;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    margin: auto 450px;
+    text-align: start;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+h3{
+    text-align: center;
+}
+
+/* page header*/
+
+.form-container p{
+    margin: 20px auto;
+}
+.form-header p{
+    font-size: 20px;
+}
+.box-input{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+.required-field{
+    color: red;
+}
+
+.btn-submit{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(234, 234, 24);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btn-submit:hover{
+    background-color: #dfdfdf;
+    border: 3px solid rgb(255, 255, 3);
+    color: rgb(255, 255, 3);
+}
+.form-body h1{
+    text-align: center;
+    border-bottom: 2px solid #c9c6c6;
+}
+.form-body-p{
+    text-align: center;
+}
+#house-photo{
+    border-top: 2px solid #c9c6c6;
+}
